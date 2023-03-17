@@ -12,8 +12,8 @@ import pandas as pd
 from sklearn.linear_model import LassoCV
 from sklearn.feature_selection import SelectKBest, chi2
 
-d1 = pd.read_excel('/content/test.xlsx')
-df = pd.read_excel('/content/train.xlsx')
+d1 = pd.read_excel('test.xlsx')
+df = pd.read_excel('train.xlsx')
 
 df
 
